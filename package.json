@@ -1,13 +1,10 @@
 {
-  "name": "suit-button-group",
-  "private": true,
-  "description": "",
+  "name": "suitcss-button-group",
   "version": "2.0.1",
-  "devDependencies": {
-    "component": "*",
-    "csslint": ">=0.9.10"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/csslint *.css"
-  }
+  "styles": [
+    "button-group.css",
+    "button-group.plugin.css"
+  ],
+  "dependencies": {},
+  "license": "MIT"
 }
